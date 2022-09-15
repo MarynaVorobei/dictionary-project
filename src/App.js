@@ -13,7 +13,22 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          Coded by Maryna Vorobei
+          © 2022 | Designed & coded by{" "}
+          <a
+            href="https://singular-puppy-7d796a.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Maryna Vorobei
+          </a>{" "}
+          | Open-sourced on{" "}
+          <a
+            href="https://github.com/MarynaVorobei/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
         </footer>
       </div>
     </div>
