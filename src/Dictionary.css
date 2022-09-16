@@ -1,3 +1,7 @@
 .Dictionary {
    text-align: center;
 }
+
+.Synonyms li {
+   list-style-type: none;
+}
