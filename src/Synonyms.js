@@ -5,7 +5,7 @@ export default function Synonyms(props) {
     return (
       <div>
       <strong>Synonyms: </strong>
-        <ul className="Synonyms d-flex flex-row justify-content-center">
+        <ul className="Synonyms d-sm-flex flex-row justify-content-start">
           {props.synonyms.map(function (synonym, index) {
             return (
               <li key={index} className="p-2">
