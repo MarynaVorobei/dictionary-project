@@ -1,3 +1,10 @@
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .Dictionary section {
   background: white;
   padding: 30px;
@@ -6,14 +13,14 @@
   margin: 20px 0;
 }
 
-.Dictionary input {
+
+.Dictionary .btn {
+  background: #daecf2;
   border-color: #daecf2;
 }
 
-.Meaning h3 {
-  text-align: center;
+.Dictionary .btn:hover {
+  background: #04ac8f;
+  color: white;
 }
 
-.Synonyms li {
-  list-style-type: none;
-}

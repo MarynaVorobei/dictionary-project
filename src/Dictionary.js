@@ -36,12 +36,13 @@ export default function Dictionary(props) {
   return (
     <div className="Dictionary">
       <section>
+        <h1>What word do you want to look up?</h1>
         <form onSubmit={handleSubmit} className="d-flex justify-content-around">
           <div className="row">
             <div className="col-md-9">
               <input
                 type="search"
-                placeholder="Type a word"
+                placeholder="Search for a word"
                 onChange={handleKeywordChange}
                 className="form-control shadow-sm rounded"
               />

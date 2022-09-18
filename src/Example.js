@@ -5,11 +5,14 @@ export default function Example(props) {
     return (
       <div className="Example">
         <strong>Example: </strong>
-        <em>{props.example}</em>
+        <em>
+          <span>"</span>
+          {props.example}
+         <span>"</span></em>
+        
       </div>
     );
   } else {
     return null;
   }
 }
-
