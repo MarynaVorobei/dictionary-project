@@ -6,12 +6,17 @@ a {
   color: #2b475c;
 }
 
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 30px 0;
 }
 
 .App-logo {
-  max-width: 70px;
+  max-width: 150px;
   display: block;
   margin: 0 auto;
 }
