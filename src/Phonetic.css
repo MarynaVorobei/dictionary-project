@@ -10,11 +10,22 @@ transition: all 100ms ease-in-out;
   margin-bottom: 20px;
 }
 
-audio {
-    height: 44px;
+audio::-webkit-media-controls-panel {
+  background: linear-gradient(
+    to right,
+    #44aab8,
+    #a3d2d8,
+    #d3e8ea,
+    #d4e2e3,
+    #d3e8ea,
+    #a3d2d8,
+    #44aab8
+  );
 }
 
-
+audio {
+    height: 41px;
+}
 
 @media (min-width: 768px) {
 .Phonetic .audio-player {

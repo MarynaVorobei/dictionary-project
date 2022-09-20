@@ -1,11 +1,14 @@
 body {
   background: #44aab8;
+  font-family: 'Judson', serif;
+  color: #172526;
 }
 
 a {
-  font-size: 11px;
+  font-size: 12px;
   text-decoration: none;
-  color: #c3e2e7;
+  color:  #d4e2e3;
+;
 }
 
 a:hover {
@@ -29,7 +32,7 @@ a:hover {
 
 .App-footer {
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   margin: 40px 0;
   color: #fff;
 }

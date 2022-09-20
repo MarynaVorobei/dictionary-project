@@ -48,7 +48,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>What word do you want to look up?</h1>
+          <h1>What word would you like to look up?</h1>
           <form onSubmit={handleSubmit}>
             <div className="row">
               <div className="col-md-10">
@@ -56,14 +56,14 @@ export default function Dictionary(props) {
                   type="search"
                   placeholder="Search for a word"
                   onChange={handleKeywordChange}
-                  className="form-control shadow-sm rounded"
+                  className="form-control"
                 />
               </div>
               <div className="col-md-2">
                 <input
                   type="submit"
                   value="🔎"
-                  className="btn btn-info w-100 shadow-sm rounded d-none d-md-block"
+                  className="btn btn-info w-100 d-none d-md-block"
                 />
               </div>
             </div>
