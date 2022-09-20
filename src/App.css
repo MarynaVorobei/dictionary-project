@@ -36,3 +36,17 @@ a:hover {
   margin: 40px 0;
   color: #fff;
 }
+
+@media (max-width: 576px) {
+   
+.App {
+  max-width: 460px;
+}
+
+.App footer {
+    font-size: 10px;
+  }
+   .App footer a {
+  font-size: 10px;
+}
+}
