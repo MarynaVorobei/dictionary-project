@@ -49,12 +49,9 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <h1>What word do you want to look up?</h1>
-          <form
-            onSubmit={handleSubmit}
-            className="d-flex justify-content-around"
-          >
+          <form onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col-md-9">
+              <div className="col-md-10">
                 <input
                   type="search"
                   placeholder="Search for a word"
@@ -62,11 +59,11 @@ export default function Dictionary(props) {
                   className="form-control shadow-sm rounded"
                 />
               </div>
-              <div className="col-md-3">
+              <div className="col-md-2">
                 <input
                   type="submit"
                   value="🔎"
-                  className="btn btn-info w-100 shadow-sm rounded"
+                  className="btn btn-info w-100 shadow-sm rounded d-none d-md-block"
                 />
               </div>
             </div>
