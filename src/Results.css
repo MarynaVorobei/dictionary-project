@@ -6,3 +6,17 @@
   font-family: 'Quando', serif;
   color: #175b63;
 }
+
+@media (max-width: 440px) {
+.Results h2 {
+  font-size: 32px;
+}
+}
+
+
+@media (max-width: 384px) {
+.Results h2 {
+  font-size: 28px;
+}
+}
+

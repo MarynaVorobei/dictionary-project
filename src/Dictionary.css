@@ -14,10 +14,10 @@
 }
 
 .Dictionary .form-control {
-border-radius: 22px;
-border: 1px solid #d4e2e3;
-height: 40px;
-box-shadow: 0 .25rem .5rem rgb(68 170 184 / 20%);
+  border-radius: 22px;
+  border: 1px solid #d4e2e3;
+  height: 40px;
+  box-shadow: 0 0.25rem 0.5rem rgb(68 170 184 / 20%);
 }
 
 .Dictionary .btn {
@@ -47,8 +47,14 @@ box-shadow: 0 .25rem .5rem rgb(68 170 184 / 20%);
   );
 }
 
-@media (max-width: 400px) {
-.Dictionary h1 {
-  font-size: 16px;
+@media (max-width: 410px) {
+  .Dictionary h1 {
+    font-size: 17px;
+  }
 }
+
+@media (max-width: 390px) {
+  .Dictionary h1 {
+    font-size: 15px;
+  }
 }

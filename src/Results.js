@@ -12,16 +12,16 @@ export default function Results(props) {
           {props.results.phonetics
             .filter((phonetic) => phonetic.audio !== "")
             .map(function (phonetic, index) {
-               if (index < 1) {
-                 return (
-                   <div key={index}>
-                     <Phonetic phonetic={phonetic} />
-                   </div>
-                 );
-               }
-               else {return null;}
+              if (index < 1) {
+                return (
+                  <div key={index}>
+                    <Phonetic phonetic={phonetic} />
+                  </div>
+                );
+              } else {
+                return null;
+              }
             })}
-          
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
