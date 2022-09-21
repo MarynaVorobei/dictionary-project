@@ -1,19 +1,19 @@
-.Synonyms ul {
+.Antonyms ul {
   display: inline;
   padding-left: 0;
 }
 
-.Synonyms li {
+.Antonyms li {
   font-size: 15px;
   display: inline-block;
   line-height: 1;
   opacity: 0.8;
-  border: 0.001rem solid #218359;
+  border: 0.001rem solid #a62f00;
   border-radius: 22px;
   padding: 2px 8px;
   margin: 4px 3px;
 }
 
-.Synonyms .synonyms-list {
-  color: #218359;
+.Antonyms .antonyms-list {
+  color: #a62f00;
 }
