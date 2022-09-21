@@ -23,7 +23,7 @@ export default function App() {
           </a>{" "}
           | Open-sourced on{" "}
           <a
-            href="https://github.com/MarynaVorobei/react-weather-app"
+            href="https://github.com/MarynaVorobei/dictionary-project"
             target="_blank"
             rel="noreferrer"
           >
